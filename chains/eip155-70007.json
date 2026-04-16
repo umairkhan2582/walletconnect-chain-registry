@@ -1,0 +1,21 @@
+{
+  "did": "did:ethr:eip155-70007",
+  "name": "Seven Chain",
+  "network": "eip155-70007",
+  "interface": "evm",
+  "coins": [
+    {
+      "name": "SEVEN",
+      "symbol": "SEVEN",
+      "denom": "wei",
+      "granularity": 18
+    }
+  ],
+  "rpc": [
+    "https://theseven.meme/api/seven-chain/jsonrpc"
+  ],
+  "custom": {
+    "chainId": 70007,
+    "networkId": 70007
+  }
+}
